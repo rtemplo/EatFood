@@ -7,19 +7,14 @@
     "dialect": "mysql"
   },
   "test": {
-    "username": "bvpfhrlwv0x4spm7",
-    "password": "qehf0p0rintivo3v ",
-    "database": "database_production",
-    "host": "o61qijqeuqnj9chh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "dialect": "mysql",
-    "port": 3306
+    "username": "root",
+    "password": null,
+    "database": "eat_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "production": {
-    "username": "bvpfhrlwv0x4spm7",
-    "password": "qehf0p0rintivo3v ",
-    "database": "database_production",
-    "host": "o61qijqeuqnj9chh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "dialect": "mysql",
-    "port": 3306
+    "user_env_variable": "JAWS_DB_URL",
+    "dialect": "mysql"
   }
 }
