@@ -10,7 +10,8 @@ module.exports = function(app) {
       for (var i=0; i < result.length; i++) {
         hbsObject.foods.push(result[i].dataValues);
       }
-
+      // console.log("hbsObject");
+      // console.log(hbsObject);
       res.render("index", hbsObject);
     });
   });
